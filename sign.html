@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .head h2,.head p {
+            text-align: center;
+        }
+
+        .btn-cntrl button {
+            background: rgb(52, 52, 246);
+            border: none;
+            color: #dadada;
+            border-radius: 3px;
+            padding: 7px;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+
+            align-items: center;
+            height: 100vh;
+        }
+        .form-control{
+            display: flex;
+        }
+
+        .form-control input {
+            margin: 15px;
+            width: 100%;
+            padding: 5px;
+        }
+
+        form {
+            box-shadow: 0px 0px 30px 5px black;
+            width: 50%;
+            border: 0.5px solid grey;
+            align-items: center;
+            height: 50vh;
+        }
+
+        .btn-cntrl {
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 15px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div class="head">
+                <h2>Sign in</h2>
+                <p>Use Your Google Account</p>
+            </div>
+            <div class="form-control">
+                <input type="text" placeholder="Username">
+            </div>
+            <div class="form-control">
+                <input type="text" placeholder="Password">
+            </div>
+            <div class="btn-cntrl">
+                <button>Sign in</button>
+            </div>
+
+
+
+
+
+
+
+
+        </form>
+
+    </div>
+</body>
+
+</html>
